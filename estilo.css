@@ -4,8 +4,8 @@
     font-family: sans-serif;
 }
 
-header {
-    background-color: #e2e2e0;
+header{
+    background-color: #96b0d6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,29 +33,50 @@ li, a{
     color: #60b3e2
 }
 
-main {
+main{
     background-color: rgb(241, 241, 241);
     height: 2810px;
     padding: 20px 20px;
-
 }
 
-#banner {
+#banner{
     display: flex;
-    /*background-image: url(img/banner_ong.png);*/
-    background-color: #91A9C8;
+    /*background-image: url(img/background_patas.png);*/
+    background-color: #d8e3f0;
     height: 500px;
     border-radius: 10px;
-    justify-content: space-between;
-    flex-direction: row;
-    background-size: cover;
+    /*flex-direction: row;*/
+}
+
+#div-imagem{
+    /*background-color:antiquewhite;*/
+    padding: 15px 10px;
+    width: 56%;
+    float: right;
+}
+
+#div-imagem img{
+    width: 850px;
+    height: 500px;
 }
 
 #txt-banner{
-    width: 4500px;
-    /*background-color: rgb(241, 241, 241);  */
-    padding: 100px 100px;
+    /*background-color: rgb(255, 135, 135);*/
+    padding: 140px 90px;
     text-align: left;
+    width: 40%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.btn-banner{
+    background-color: #edce71;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
 }
 
 #texto-primeiro{
@@ -78,7 +99,7 @@ main {
     grid-template-columns: auto auto auto ;
 }
 
-#bloco-fotos div {
+#bloco-fotos div{
   font-size: 30px;
   text-align: center;
   margin: 7px;
