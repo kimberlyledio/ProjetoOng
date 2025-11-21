@@ -30,7 +30,7 @@ li, a{
 }
 
 .nav-links li a:hover{
-    color: #60b3e2
+    color: #ffffff
 }
 
 main{
@@ -82,11 +82,11 @@ main{
 /* DIV COM TEXTO*/
 
 #texto-primeiro{
-    margin-top: 30px;
+    margin-top: 20px;
     background-image: url(img/background_patas.png);
     background-color: rgb(241, 241, 241);
-    height: 70px;
-    padding: 40px 100px;
+    height: 80px;
+    padding: 60px 100px;
     align-items: center;
     text-align: center;
 }
@@ -187,7 +187,7 @@ main{
     border-radius: 10px;
     margin-top: 20px;
     background-color: #DCD8CC;
-    height: 1050px;
+    height: 1090px;
     padding: 50px 60px;
     margin-bottom: 20px;
 }
@@ -197,11 +197,11 @@ main{
     left: 50%;
     border-radius: 10px;
     padding: 5px;
-    width: 210px;
+    width: 220px;
     height: 30px;
     background-color: #edecec;
     border: 1 solid #848484;
-    border-radius: 15px;
+    border-radius: 10px;
     align-items: center;
 }
 
@@ -243,17 +243,49 @@ p.txt-inicio{
     padding: 20px 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px; 
-    background-color: rgb(215, 151, 151);
-    height: 950px;
+    /*background-color: rgb(215, 151, 151);*/
+    height: 955px;
 }
 
 .grid-item2{
+    border: 5px solid #faf9f1;
     position: relative;
     overflow: hidden;
     width: 100%;
-    background-color: #9ff1cb;
-    min-height: 200px; 
+    background-color: #faf9f1;
+    max-height: 500px; 
+    border-radius: 10px;
 }
+
+.grid-item2 img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-item2 .descricao{
+   /* background-color: #edce71;*/
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#animais .btn-animais{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#animais .btn-animais a{
+    width: 90px;
+    padding: 20px;
+    background-color: #60b3e2;
+    border-radius: 10px;
+}
+
 
 #adocao{
     background-color: #60b3e2;
@@ -264,5 +296,19 @@ p.txt-inicio{
 footer {
     background-color: #494949;
     width: 100%;
-    height: 200px;
+    height: 300px;
+}
+
+#rodape{
+    display:flex;
+}
+
+#rodape .logo{
+    float: left;
+    background-color: #d8e3f0;
+}
+
+#rodape .contato{
+    float: right;
+    background-color: #5c94d8;
 }
