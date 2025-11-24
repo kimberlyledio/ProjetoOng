@@ -35,15 +35,18 @@ li, a{
 
 main{
     background-color: rgb(241, 241, 241);
-    height: 3010px;
+    height: 3100px;
     padding: 20px 20px;
 }
 
 #banner{
     display: flex;
-    /*background-image: url(img/background_patas.png);*/
-    background-color: #d8e3f0;
+    background-image: url(../img/Group\ 19.png);
+    /*background-color: #d8e3f0;*/
     height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
     border-radius: 10px;
     /*flex-direction: row;*/
 }
@@ -62,9 +65,10 @@ main{
 
 #txt-banner{
     /*background-color: rgb(255, 135, 135);*/
-    padding: 140px 90px;
+    padding: 130px 90px;
     text-align: left;
-    width: 40%;
+    width: 35%;
+    color: #d8e3f0;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
@@ -83,7 +87,7 @@ main{
 
 #texto-primeiro{
     margin-top: 20px;
-    background-image: url(img/background_patas.png);
+    background-image: url(../img/background_patas.png);
     background-color: rgb(241, 241, 241);
     height: 80px;
     padding: 60px 100px;
@@ -96,7 +100,7 @@ main{
 #bloco-fotos{
     border-radius: 10px;
     margin-top: 20px;
-    background-image: url(img/background_patas.png);
+    background-image: url(../img/background_patas.png);
     height: 610px;
     padding: 50px 60px;
     margin-bottom: 20px;
@@ -187,7 +191,7 @@ main{
     border-radius: 10px;
     margin-top: 20px;
     background-color: #DCD8CC;
-    height: 1090px;
+    height: 1535px;
     padding: 50px 60px;
     margin-bottom: 20px;
 }
@@ -241,10 +245,10 @@ p.txt-inicio{
     max-width: 2000px;
     margin: 0 auto;
     padding: 20px 30px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px; 
     /*background-color: rgb(215, 151, 151);*/
-    height: 955px;
+    height: 1400px;
 }
 
 .grid-item2{
@@ -253,13 +257,13 @@ p.txt-inicio{
     overflow: hidden;
     width: 100%;
     background-color: #faf9f1;
-    max-height: 500px; 
+    max-height: 440px; 
     border-radius: 10px;
 }
 
 .grid-item2 img {
     width: 100%;
-    height: 85%;
+    height: 320px;
     object-fit: cover;
     display: block;
 }
@@ -269,11 +273,30 @@ p.txt-inicio{
     align-items: center;
     text-align: center;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+a.btn-adotar{
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #edf2f8;
+    background-color: #6f7e93;
+    display: inline-block;
+}
+
+a.btn-apadrinhar{
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #dcd4be;
+    display: inline-block;
 }
 
 #animais .btn-animais{
-    padding: 20px;
+    padding: 15px;
     align-items: center;
     text-align: center;
     margin: 10px;
@@ -281,15 +304,14 @@ p.txt-inicio{
 
 #animais .btn-animais a{
     width: 90px;
-    padding: 20px;
-    background-color: #60b3e2;
-    border-radius: 10px;
+    padding: 15px;
+    background-color: #948e7f;
+    border-radius: 5px;
 }
-
 
 #adocao{
     background-color: #60b3e2;
-    height: 400px;
+    height: 200px;
     border-radius: 10px;
 }
 
