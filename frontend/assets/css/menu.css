@@ -143,46 +143,56 @@
   border-bottom: none;
 }
 
+/* ==============================
+    LINHA DIVISÓRIA
+================================= */
+.line {
+  border-bottom: 7px solid #5893f3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================== 
+    FOOTER 
+================================= */
 footer {
-    background-color: #4a5c79;
-    padding: 50px 0;
-    color: #fff;
-    height: 200px;
+  background-color: #5893f3;
+  padding: 20px 0;
+  color: #fff;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-    .footer-column {
-        flex: 1;
-        min-width: 200px;
-    }
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
 
-    .footer-column h3 {
-        font-size: 1.25rem;
-        margin-bottom: 10px;
-    }
+.footer-column h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
 
 .footer-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-column ul li {
-    font-size: 15px;
-    margin-bottom: 8px;
+  font-size: 15px;
+  margin-bottom: 8px;
 }
 
-    .sociais-footer a {
-        margin-right: 10px;
-        color: #fff;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
+.sociais-footer a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
