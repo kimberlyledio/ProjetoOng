@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" typetext="text/css" href="./assets/css/estilo2.css">
     <link rel="stylesheet" typetext="text/css" href="./assets/css/menu.css">
-
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/dcf460ffec.js" crossorigin="anonymous"></script>
+    <title>Acãochego</title>
 </head>
 
 <body>
-    <script src="./assets/js/script.js"></script>
     <header>
         <div class="top-bar">
             <div class="container">
-                <img src="./assets/img/logo/logo-acaochego.png" alt="Logo Acãochego" class="logo" />
+                <img src="./assets/img/logo/logo-acaochego.png" alt="Logo Acãochego" class="logo"/>
 
                 <div class="name-slogan">
                     <p class="name">ACÃOCHEGO</p>
@@ -55,60 +54,45 @@
 
     <main>
         <section id="info-dogs">
+
             <div id="container-slider" class="container-slider">
-                <button id="prev-button" class="nav-btn">
-                    <img src="./assets/img/arrow.png" alt="Anterior">
-                </button>
 
-                <div class="container-images">
-                    <img src="./assets/img/Mel/melcaixa11.jpg" class="slider on" alt="">
-                    <img src="./assets/img/Mel/mel2.jpg" class="slider" alt="">
-                    <img src="./assets/img/Mel/mel4.jpg" class="slider" alt="">
-                    <img src="./assets/img/Mel/mel5.jpg" class="slider" alt="">
+                <div class="container-images" id="dog-slider">
                 </div>
-
-                <button id="prox-button" class="nav-btn">
-                    <img src="./assets/img/arrow.png" alt="Próximo">
-                </button>
             </div>
 
             <div class="bloco2">
                 <div class="tabela-container">
 
-                    <h1>Mel</h1>
-                    <h3>(Ex FILHOTE 1 DO FERRO VELHO)</h3>
+                    <h1 id="dog-name"></h1>
+                    <h3 id="dog-subtitle"></h3>
 
                     <br>
 
                     <table>
                         <tr>
                             <th>Nome</th>
-                            <td>Mel</td>
+                            <td id="t-nome"></td>
                         </tr>
                         <tr>
                             <th>Idade</th>
-                            <td>13 anos e 4 meses</td>
-
+                            <td id="t-idade"></td>
                         </tr>
                         <tr>
                             <th>Raça</th>
-                            <td>Mestiço</td>
-
+                            <td id="t-raca"></td>
                         </tr>
                         <tr>
                             <th>Porte</th>
-                            <td>Médio</td>
-
+                            <td id="t-porte"></td>
                         </tr>
                         <tr>
                             <th>Sexo</th>
-                            <td>Fêmea</td>
-
+                            <td id="t-sexo"></td>
                         </tr>
                         <tr>
                             <th>Localização</th>
-                            <td>São Paulo - SP</td>
-
+                            <td id="t-local"></td>
                         </tr>
                     </table>
                 </div>
@@ -120,56 +104,33 @@
         </section>
 
         <section class="div-cartoes">
-
             <div class="txt-titulos">
-                <br>
-                <h2>CARACTERÍSTICAS E PERSONALIDADE</h2>
+                <h2>MAIS IMAGENS</h2>
             </div>
-            <div class="acoes-container">
-                <div class="cartao acao-doacao">
-                    <div class="conteudo-superior">
-                        <i class="fa-solid fa-cat"></i>
-                        <h3>Sociável</h3>
-                        <p>
-                            Seja um doador pontual ou mensal. Ajude a ONG com o valor que
-                            puder contribuir. É fácil, rápido e você garante a qualidade dos
-                            nossos mais de 500 peludinhos.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="cartao acao-apadrinhar">
-                    <div class="conteudo-superior">
-                        <i class="fa-solid fa-dog"></i>
-                        <h3>Adora passear</h3>
-                        <p>
-                            Sendo madrinha ou padrinho, você vai contribuir com um custo
-                            fixo mensal (R$ XX,00 por peludo escolhido), pois ele precisa de
-                            ração, medicamentos e tratamento para ficar lindo e feliz.
-                        </p>
-                    </div>
-                </div>
+            <div class="div-imagens" id="dog-imagens">
+                <ul class="grid2" id="dog-imagens-lista">
+                    <li class="item2 cartao-imagem">
 
-                <div class="cartao acao-adotar">
-                    <div class="conteudo-superior">
-                        <i class="fa-solid fa-paw"></i>
-                        <h3>Adora crianças</h3>
-                        <p>
-                            A adoção de animais é fundamental para combater o abandono e os
-                            maus-tratos. Ao escolher adotar, você não apenas salva uma vida,
-                            mas também abre espaço para que mais animais sejam resgatados e
-                            cuidados.
-                        </p>
-                    </div>
-                </div>
+                    </li>
+
+                    <li class="item2 cartao-imagem">
+
+                    </li>
+
+                    <li class="item2 cartao-imagem">
+
+                    </li>
+                </ul>
             </div>
         </section>
+        <section class="div-cartoes">
 
-        <section id="info-animais">
-            <div class="line-dog"></div>
+            <div class="txt-titulos">
+                <h2>CARACTERÍSTICAS E PERSONALIDADE</h2>
+            </div>
 
-            <div class="caixa-pesquisa">
-
+            <div class="acoes-container" id="dog-caracteristicas">
             </div>
         </section>
 
@@ -207,7 +168,6 @@
     </main>
 
     <footer>
-        <!--Começo ul 1-->
         <div class="footer-container">
             <ul>
                 <img src="./assets/img/logo/logo-acaochego.png" alt="Logo Acãochego" class="logo" />
@@ -246,7 +206,13 @@
             </ul>
             <!--Fim ul 3-->
         </div>
+        </div>
     </footer>
+
+    <script src="./assets/js/dogs.js"></script>
+    <script src="./assets/js/dog-page.js"></script>
+    <script src="./assets/js/main.js"></script>
+
 </body>
 
 </html>
