@@ -9,6 +9,13 @@ main {
     height: 1800px;
 }
 
+.perfil {
+    display: none;
+}
+.perfil.ativo {
+    display: block;
+}
+
 a{
     text-decoration: none;
 }
@@ -49,6 +56,7 @@ a{
     height: 370px;
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 .slider {
@@ -139,7 +147,7 @@ th {
 }
 
 /* ==============================
-    LINHA DE CÃES (Primeira)
+    LINHA DE CÃES
 ================================= */
 .line-dog {
     background-image: url(../img/line-dog.png);
@@ -157,7 +165,7 @@ th {
 }
 
 /* ==============================
-    CARTÕES DE ADOÇÃO
+    CARTÕES DE INFO
 ================================= */
 .cartao {
     cursor: default;
